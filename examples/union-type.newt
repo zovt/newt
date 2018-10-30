@@ -1,0 +1,8 @@
+(enum shape [
+	(circle :struct [(radius uint64)]))
+	(rect :struct [(height uint64) (width uint64)]))])
+
+(defn print-shape (s:shape)
+	(match s
+		[(circle c) (println (concat "Circle with radius " (circle-radius c)))]
+		[(rect r) (println (concat "Rectangle with height " (rect-height r) " and width " (rect-width r)))]))

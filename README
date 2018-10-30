@@ -1,0 +1,11 @@
+NEWT
+====
+
+Newt is a lisp/scheme-like language with a focus on being useable
+for real-time applications such as games, A/V processing, or OS-dev.
+
+To accomplish this, Newt compiles to machine code, has no runtime,
+and is easily interoperable with C.
+
+Along with this, Newt is strongly statically typed, with type
+inference.
