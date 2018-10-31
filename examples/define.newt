@@ -1,0 +1,4 @@
+(sig (my-add int int) int)
+(def (my-add a b) (+ a b))
+
+(my-add 1 2)

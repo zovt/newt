@@ -1,0 +1,2 @@
+(def a 8)
+(println (+ a 8))
