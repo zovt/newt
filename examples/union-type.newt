@@ -1,6 +1,6 @@
 (enum shape [
-	(circle :struct [(radius uint64)]))
-	(rect :struct [(height uint64) (width uint64)]))])
+	(circle :struct [(radius uint64)])
+	(rect :struct [(height uint64) (width uint64)])])
 
 (defn print-shape (s:shape)
 	(match s
