@@ -1,4 +1,4 @@
-(sig (my-add int int) int)
+(: (my-add int8 int8) int8)
 (def (my-add a b) (+ a b))
 
 (my-add 1 2)
